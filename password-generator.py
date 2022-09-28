@@ -17,7 +17,7 @@ while True:
 while True:
     condition1 = input(
         "Select password conditions: L (lowercase), U (uppercase), D (digits), P (punctuation), W (whitespace): ")
-    if ('L' and 'U' and 'D' and 'P' and 'W') not in condition1:
+    if ('L') not in condition1 and ('U') not in condition1 and ('D') not in condition1 and ('P') not in condition1 and ('W') not in condition1:
         print("Error: L, U, D, P, or W must be in conditions")
         continue
     else:
