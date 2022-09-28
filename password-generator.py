@@ -1,6 +1,5 @@
 # Joseph Brehm       9.28.22
 # Random Password Generator
-from operator import truediv
 import random
 import string
 import re
